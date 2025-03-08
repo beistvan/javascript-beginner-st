@@ -1,0 +1,5 @@
+function testLogicalShiftAnd(a, b) {
+    let leftShift = a << b;
+    let rightShift = b >> a;
+    return leftShift && rightShift;
+}
